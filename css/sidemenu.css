@@ -1,0 +1,423 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700);
+
+ @media only screen and (min-width: 760px) {
+
+
+
+#container {
+	background-color: #fff;
+	padding: 10px;
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+
+
+
+nav {
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 23px 0 0 20px;
+	text-align: left;
+
+}
+
+nav ul ul { 
+	margin: 0 10px;
+}
+
+nav ul li {
+	display: block;
+	float: left;
+	padding: 0px;
+}
+
+nav ul li li {
+	padding: 0;
+}
+
+
+nav ul li a {
+	display: block;
+	float: left;
+	padding: 10px 10px;
+    color: #999;
+    font-size: 0.9em;
+	margin: 0 10px;
+     border-bottom: none;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+}
+
+nav ul li a i { padding-right: 5px; }
+
+nav ul li li a {
+	float: none;
+	padding: 10px 5px;
+}
+
+nav ul li a:hover {
+	color: #A2CCEC;
+	text-decoration: none;
+	
+}
+
+
+
+nav ul li.selected a, nav ul li.selected a:hover {
+	background: linear-gradient(#2bbbdf, #2bbbdf);
+    	background-color: #2bbbdf;
+	color: #fff;
+	border-radius: 5px;
+}
+
+nav ul li.selected a:hover {
+	background-color: #2bbbdf !important;
+	background-image: none !important;
+}
+
+nav ul li a:hover, nav ul li.sfHover a {
+	background: #f0f0f0;
+	background-image: none;
+	color: #666;
+	border-radius: 5px;
+}
+
+
+nav ul li a.sf-with-ul:hover, nav ul li.sfHover a {
+	background-color: #f0f0f0;
+	color: #666;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+
+ nav ul li.sfHover ul a, nav ul ul {
+	background: #f0f0f0;
+	color: #666;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+nav ul li.sf-with-ul.selected ul a, nav ul li.selected ul, nav ul li.selected.sfHover a  {
+	background: #2bbbdf;
+	color: #eee;
+}
+
+nav ul li.sf-with-ul.selected ul a:hover, nav ul li.selected.sfHover a:hover {
+	color: #fff;
+}
+
+nav ul li li a:hover, nav ul li.sfHover li a:hover {
+	color: #333;
+}
+
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			200px; /* left offset of submenus need to match (see below) */
+	margin-top: 	10px;
+	padding-top:	0;
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			23px; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			200px; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+
+/* intro */
+div#intro {
+	background-color: #fff;
+	border-bottom: 2px solid #f0f0f0;
+}
+
+div#intro .intro-content {
+	padding: 50px 0px;
+	text-align: center;
+}
+
+div#intro div.intro-content-short {
+	text-align: left;
+	padding: 20px 0px;
+}
+
+
+div#intro h2 {
+	font-size: 3em;
+}
+
+div#intro h2, div#intro p {
+	color: #555;
+	font-weight: normal;
+}
+
+div#intro p {
+	font-size: 1.3em;
+	color: #999;
+	line-height: 1.3em;
+}
+
+a.button-slider {
+	padding: 10px 15px;
+	font-size: 0.8em;
+	text-align: center;
+	margin: 5px 10px 5px 0;
+}
+
+a.button-slider i { padding-right: 5px; }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#body {
+	background: none;
+	margin: 25px auto 0;
+ 	padding: 0;
+	clear: both;
+}
+
+#content {
+    float: left;
+}
+
+.two-column {
+	width: 66%;
+}
+
+.three-column {
+	width: 46%;
+	margin: 0 2%;
+}
+
+.with-right-sidebar {
+	margin-right: 2%;
+}
+
+.with-left-sidebar {
+	margin-left: 2%;
+}
+
+
+article {
+    padding: 10px 10px 20px 5px !important;;
+ }
+
+article .article-info {
+    color: #c0c0c0;
+    font-size: 0.9em;
+    letter-spacing: -0.5px;
+    padding: 0 0 10px 0;
+}
+
+article .article-info a { 
+	color: #c0c0c0;
+	border-bottom-color: #c0c0c0;
+}
+
+.sidebar {
+	margin-top: 10px;
+}
+
+.small-sidebar { 
+   width: 25%;
+}
+
+.big-sidebar {
+	width: 30%;
+}
+
+.left-sidebar { 
+	float: left;
+}
+
+.right-sidebar {
+	float: right;
+	margin-top: 0px;
+}
+
+
+
+.sidebar h4 {
+	padding-bottom: 0;
+	font-size: 1.4em;
+	letter-spacing: -1px;
+	padding: 6px 0;
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar ul li {
+	margin-bottom: 20px;
+	line-height: 1.9em;
+	padding: 10px;
+}
+
+.sidebar ul li.bg {
+	background-color: #f0f0f0;
+}
+
+
+.sidebar .bg h4 {
+	color: #666;
+}
+
+
+.sidebar li ul {
+    list-style: none outside none;
+    margin: 0px;
+}
+
+.sidebar li ul li {
+	display: block;
+	border-top: none;
+	padding: 7px 2px;
+	margin: 0;
+	line-height: 1.5em;
+	font-size: 0.85em;
+}
+
+.sidebar li ul li ul {
+	margin-top: 10px;
+}
+
+.sidebar li ul li li  {
+	font-size: 1.0em;
+	padding-left: 15px;
+}
+
+
+
+.sidebar li ul li.text { 
+	border-bottom: none;
+}
+
+
+.sidebar li ul li a {
+	 border-bottom-color: #666;
+	color: #666;
+}
+
+.sidebar li ul li a:hover {
+	 border-bottom-color: #ddd;
+	color: #2bbbdf;
+}
+
+
+.sidebar li ul li a.readmore {
+   font-weight: bold;
+}
+
+
+.sidebar ul.blocklist {
+	
+}
+
+.sidebar ul.blocklist li {
+	padding: 0;
+}
+
+.sidebar ul.blocklist li a,
+.sidebar ul.blocklist li a:hover {
+	border-bottom: 0;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	padding: 12px 10px;
+}
+
+.sidebar ul.blocklist li a.selected {
+	background: linear-gradient(#2bbbdf, #2bbbdf);
+    background-color: #2bbbdf;
+    color: #FFFFFF;
+	border: 1px solid #2bbbdf;
+	font-weight: bold;
+
+}
+.sidebar li ul.blocklist li li {
+	font-size: 1.0em;
+}
+
+.sidebar li ul.blocklist ul {
+	margin-top: 0;
+}
+
+.sidebar li ul.blocklist li li a,
+.sidebar li ul.blocklist li li a:hover {
+	padding-left: 25px;
+}
+
+.sidebar ul.newslist li {
+	padding: 20px 5px;
+	border-bottom: 1px dashed #ddd;
+}
+
+.sidebar ul.newslist p {
+	margin-bottom: 0;
+}
+
+.sidebar ul.newslist span.newslist-date { 
+	background-color: #2bbbdf;
+	border-bottom: 1px solid #d7dee0;
+	color: #fff;
+	padding: 5px 10px;
+}
+
+
+
+
+.clear {
+	clear: both;
+}
+
+
+ }

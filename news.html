@@ -1,0 +1,812 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/sidemenu.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-responsive.css">
+<link rel="stylesheet" href="css/custom-styles.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/component.css">
+<link rel="stylesheet" href="css/font-awesome-ie7.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]--> 
+
+<!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html --> 
+
+<!-- Site header starts here --> 
+
+<!-- main content starts here -->
+
+<div class="container b-radius-top">
+  <div class="top-bar b-radius">
+    <div class="top-content">
+      <ul>
+        <li><a href="http://iidl.unist.ac.kr"><i class="fw-icon-link icon"></i>www.iidl.unist.ac.kr</a></li>
+        <li><a href="kmyung@unist.ac.kr"><i class="fw-icon-envelope-alt icon"></i>info@iidl.unist.ac.kr</a></li>
+        <li><a href="#"><i class="fw-icon-phone icon"></i>+82-52-217-2714</a></li>
+      </ul>
+    </div>
+    <div class="social">
+      <ul>
+        <li><a href="www.facebook.com"><i class="fw-icon-facebook icon"></i></a></li>
+        <li><a href="www.youtube.com"><i class="fw-icon-youtube icon"></i></a></li>
+        <li><a href="www.unist.ac.kr"><i class="fw-icon-linkedin icon"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="site-header"> 
+    
+    <!-- Site Name starts here -->
+    
+    <div class="site-name"> <img src="img/logo.jpg" alt="Integration and Innovation Design">
+      <h5>Integration and Innovation Design</h5>
+    </div>
+    
+    <!-- Site Name ends --> 
+    
+    <!-- Menu starts here -->
+    <div class="menu">
+      <div class="navbar"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <i class="fw-icon-th-list"></i> </a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="members.html#one">People</a></li>
+            <li><a href="research.html#r">Research</a></li>
+            <li><a href="projects.html#p">Projects</a></li>
+            <li><a href="publications.html#pu">Publications</a></li>
+            <li><a href="lectures.html#l">Lectures</a></li>
+            <li><a href="news.html#n">News</a></li>
+          </ul>
+          <form class="search-form">
+            <div class="input-append ">
+              <input type="text" class="search-query input-large" placeholder="Search I+ID Lab">
+              <button type="submit" class="btn"><i class="icon-search"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Menu ends --> 
+  </div>
+  
+  <!-- Banner starts here -->
+  
+  <div class="banner">
+    <div class="carousel slide" id="myCarousel"> 
+      <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="item active"> <img src="img/banner_Kim.jpg" alt=""> </div>
+            <div class="item"> <img src="img/banner1.jpg" alt=""> </div>
+            <div class="item"> <img src="img/Banner9.jpg" alt=""> </div>
+            <div class="item"> <img src="img/img23.jpg" alt=""> </div>
+
+
+            <div class="item"> <img src="img/banner5.jpg" alt=""> </div>
+            <div class="item"> <img src="img/banner6.jpg" alt=""> </div>
+            <div class="item"> <img src="img/banner7.jpg" alt=""> </div>
+            <div class="item"> <img src="img/banner8.jpg" alt=""> </div>
+
+        </div>
+      <a data-slide="prev" href="#myCarousel" class="carousel-control left"><i class="fw-icon-chevron-left" aria-hidden="true"></i></a> <a data-slide="next" href="#myCarousel" class="carousel-control right"><i class="fw-icon-chevron-right" aria-hidden="true"></i></a> </div>
+  </div>
+  <div align="justify">
+    <!-- Banner ends here -->
+    <style>
+
+header{
+    font-family: 'Playfair Display', serif;
+	color: #2bbbdf;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 50px;
+    margin-bottom: 10px;
+
+}
+
+	
+
+.head{
+    text-align: center;
+    position: relative;
+	color: #869093;
+
+
+}
+
+
+.subhead{
+    text-transform: uppercase;
+    border-bottom: 2px solid #869093;
+    border-top: 2px solid #869093;
+    padding: 4px 0 4px 0;
+
+}
+
+.content{
+    font-size: 0;
+    line-height: 0;
+    word-spacing: -.31em;
+    display: inline-block;
+    margin: 30px 2% 0 2%;
+	
+
+
+}
+.collumns{
+	
+
+}
+
+.collumn{
+    font-size: 14px;
+    line-height: 20px;
+    width: 30.5%;
+    display: inline-block;
+    padding: 0 1% 0 1%;
+    vertical-align: top;
+    margin-bottom: 50px;
+    transition: all .7s;
+	
+	
+}
+.collumn + .collumn { 
+  border-left: 1px solid #869093;
+  	-webkit-columns: 2 400px;
+     -moz-columns: 2 400px;
+          columns: 2 400px;
+  -webkit-column-rule: 1px solid black;
+     -moz-column-rule: 1px solid black;
+          column-rule: 1px solid black;
+}
+.collumn .headline{
+    text-align: center;
+    line-height: normal;
+    font-family: 'Playfair Display', serif;
+    display: block;
+    margin: 0 auto;
+
+
+}
+.collumn .headline.hl1{
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 2px 0 8px 0;
+
+}
+
+.collumn .headline.hl2{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+
+.collumn .headline.hl2:before{
+    border-top: 1px solid #869093;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl2:after{
+    border-bottom: 1px solid #869093;
+    content: '';
+    width: 100px;
+    height: 12px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.collumn .headline.hl3{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 26px;
+    box-sizing: border-box;
+    padding: 1px 0 10px 0;
+}
+.collumn .headline.hl4{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl4:before{
+    border-top: 1px solid #869093;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl4:after{
+    border-bottom: 1px solid #869093;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.collumn .headline.hl5{
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-style: italic;
+    box-sizing: border-box;
+    padding: 1px 0 10px 0;
+}
+.collumn .headline.hl6{
+    font-weight: 400;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 1px 0 4px 0;
+}
+.collumn .headline.hl6:before{
+    border-top: 1px solid #869093;
+    content: '';
+    width: 100px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl6:after{
+    border-bottom: 1px solid #869093;
+    content: '';
+    width: 100px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+
+}
+.collumn .headline.hl7{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 26px;
+    box-sizing: border-box;
+    padding: 1px 0 10px 0;
+}
+.collumn .headline.hl8{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+
+.collumn .headline.hl8:before{
+    border-top: 1px solid #869093;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl8:after{
+    border-bottom: 1px solid #869093;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.collumn .headline.hl9{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl10{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .citation{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 44px;
+    /*font-style: italic;*/
+    text-align: center;
+    font-weight: 400;
+    display: block;
+    margin: 40px 0 40px 0;
+    font-feature-settings: "liga", "dlig";
+
+}
+.collumn .citation:before{
+    border-top: 1px solid #869093;
+    content: '';
+    width: 100px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .citation:after{
+    border-bottom: 1px solid #869093;
+    content: '';
+    width: 100px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .figure {
+	  margin: 0 0 20px;
+}
+.collumn .figcaption{
+	font-style: italic;
+	font-size: 12px;
+}
+.media {
+   
+    
+    mix-blend-mode: multiply;
+    width: 100%;
+}
+/*________________________________________________________________________________________________________________________________*/
+/*MEDIAQUERIES*/
+@media only all and (max-width: 1300px) {
+    .weatherforcastbox{
+        display: none;
+    }
+
+}
+@media only all and (max-width: 1200px) {
+    .collumn{
+        width: 31%;
+    }
+
+}
+    @media only all and (max-width: 900px) {
+    .collumn{
+        width: 47%;
+    }
+
+}
+@media only all and (max-width: 600px) {
+    .collumn{
+        width: 100%;
+    }
+	.collumn + .collumn {
+				border-left: none;
+      	border-bottom: 1px solid #2bbbdf;
+		
+		
+	}
+    header{
+        max-width: 320px;
+        font-size: 60px;
+        line-height: 54px;
+        overflow: hidden;
+    }
+
+}
+
+                   </style>
+  </div>
+  
+  <!-- Main content starts here -->
+  <section id="content" class="two-column with-right-sidebar">
+  <div class="head">
+    <div class="headerobjectswrapper">
+      <div class = "tufail"><h1 id = "n">IID Lab News</h1></div>
+    </div>
+    <div class="subhead">UNIST, CDE - 2019 - Building#104, Room#904 IID Lab </div>
+  </div>
+  <div class="content">
+    <div class="collumns">      
+           
+        <div class="collumn">
+
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">The Millionth Design Certificate</h2></div>
+                <p><span class="headline hl8">September 19, 2019</span></p>
+            </div>
+
+            <p>
+               Professor KwanMyung Kim received the Millionth Design Certificate for the Smart Safety Helmet invention (patent) from Moon Jae-In, the President of Korea in an award ceremony placed in the Blue House (Seoul Today 19/09/2019).
+
+      
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/11.jpg" alt="">
+                <figcaption class="figcaption">Prof. Kim while receiving a certificate of the Millionth Design for Smart Safety Helmet Patent</figcaption>
+            </figure>
+            <p>A group photo with the President and other awardees</p>
+            <figure class="figure">
+                <img class="media" src="img/news/2.jpg" alt="">
+                <figcaption class="figcaption">Prof. Kim with the President of Korea</figcaption>
+            </figure>
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">KSDS Conference in Busan Korea</h2></div>
+                <p><span class="headline hl8">November 03. 2018</span></p>
+            </div>
+
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">Reddot Award 2018</h2></div>
+                <p><span class="headline hl8">Haebin Lee and Aibolot Makenov</span></p>
+            </div>
+
+            <p>
+                The award "Red Dot" for high design quality, expressing innovation in form and function in an exemplary manner was presented to our product Toguz Korgool
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/news10.3.png" alt="">
+                <figcaption class="figcaption">Red dot 2018</figcaption>
+            </figure>
+            <p>Toguz Korgool Game</p>
+            <figure class="figure">
+                <img class="media" src="img/news/news10.4.png" alt="">
+                <figcaption class="figcaption">Red dot 2018</figcaption>
+            </figure>
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">KSDS Conference in Busan Korea</h2></div>
+                <p><span class="headline hl8">November 03. 2018</span></p>
+            </div>
+
+            <p>
+                Muhammad Tufail, "Maintenance and Diagnostics Scenario Design for Prognostics and Health Management of Robots in Manufacturing Industries"<br>
+                Jaehee Lee, "Evaluation of robot‘s main body professional maintenance manual for Hyundai robotics"<br />
+                For conference proceedings and details, please visit http://www.design-science.or.kr
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/new.7.4.jpg" alt="">
+                <figcaption class="figcaption">KSDS 2018</figcaption>
+            </figure>
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">KSDS Conference in Busan Korea</h2></div>
+                <p><span class="headline hl8">October 29. 2016</span></p>
+            </div>
+            <p>IIDL members Muhammad Tufail, Haebin Lee, Narae Moon, and Myungjin Kim participated in KSDS 2016 conference in Busan South Korea.</p>
+            <p>
+                Muhammad Tufail & Marian Adusei, "Design for Employee Resilience: A Case of Shipbuilding Industries in Ulsan"<br>
+                For conference proceedings and details, please visit http://www.design-science.or.kr
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/new7.3.png" alt="">
+                <figcaption class="figcaption">Design for Employee resilience by Tufail</figcaption>
+            </figure>
+            <p>
+                Haebin Lee, "The Taxanomy of Transformable Design" <br>
+                For conference proceedings and details, please visit http://www.design-science.or.kr
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/new7.2.png" alt="">
+                <figcaption class="figcaption">Transformable Design by Haebin Lee</figcaption>
+            </figure>
+            <p>
+                Narae Moon, "Design for Maternity Care: A Case of Morocco"<br>
+                For conference proceedings and details, please visit http://www.design-science.or.kr
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/new7.1.png" alt="">
+                <figcaption class="figcaption">Design for developing world by Narae Moon</figcaption>
+            </figure>
+            <p>
+                Myungjin Kim, "Th Design of RainFlower for Rain Quality Prediction" <br>
+                For conference proceedings and details, please visit http://www.design-science.or.kr
+            </p>
+
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">The Design Conference Dubrovinik Croatia</h2></div>
+                <p><span class="headline hl8">May 16. 2016</span></p>
+            </div>
+            <p>
+                Professor KwanMyung Kim with Haebin Lee and Muhammad Tufail at The Design Conference 2016, Dubrovnik Croatia to present our lab research on Transformable Design.</br>
+                For conference proceedings, please visit http://www.designconference.org<br>
+                /news.
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/new6.png" alt="">
+                <figcaption class="figcaption">The Design Society 2016</figcaption>
+            </figure>
+
+        </div>
+      
+        <div class="collumn">
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">KSDS Fall 2019 Conference in Ilsan</h2></div>
+                <p><span class="headline hl8">November 9-11, 2019</span></p>
+            </div>
+            <p>
+                Conference location: KINTEX Ilsan.
+                IIDL members participated in poster and paper presentations and received best paper awards<br>
+                한국디자인학회 2019
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/KSDS1.jpg" alt="">
+                <figcaption class="figcaption">Director IIDL and members at the conference location</figcaption>
+            </figure>
+
+            <figure class="figure">
+                <img class="media" src="img/news/KSDS2.jpg" alt="">
+                <figcaption class="figcaption">Malika Gabbas receiving best paper award</figcaption>
+            </figure>
+            <figure class="figure">
+                <img class="media" src="img/news/KSDS3.jpg" alt="">
+                <figcaption class="figcaption">Prof. KwanMyung Kim receiving appreciation award for best advisory professor</figcaption>
+            </figure>
+
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">Spark Design Award: Fall Concept</h2></div>
+                <p><span class="headline hl8">$100 Library: Gold Winner 2018</span></p>
+            </div>
+            <p>
+                Prefabricated transformable compartments for library<br>
+                For more details, please visit https://www.sparkawards.com<br>
+                Fall Concept 2018
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/news10.5.png" alt="">
+                <figcaption class="figcaption">Sparkawards 2018</figcaption>
+            </figure>
+            <div class="head">
+                <p><span class="headline hl8">Anybaro: Bronze Winner 2018</span></p>
+            </div>
+            <p>
+                Transformable Training platform for Seogi<br>
+                For more details, please visit https://www.sparkawards.com<br>
+                Fall Concept 2018
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/news10.6.png" alt="">
+                <figcaption class="figcaption">Sparkawards 2018</figcaption>
+            </figure>
+
+            <div class="head">
+                <p><span class="headline hl8">MWR: Gold Winner 2018</span></p>
+            </div>
+            <p>
+                Marine Welding Robot (MWR)<br>
+                For more details, please visit https://www.sparkawards.com<br>
+                Fall Concept 2018
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/news10.7.png" alt="">
+                <figcaption class="figcaption">Sparkawards 2018</figcaption>
+            </figure>
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">IISE Asian Conference in Taichung Taiwan</h2></div>
+                <p><span class="headline hl8">October 18-20, 2018</span></p>
+            </div>
+            <p>
+                Conference location: Tunghai University, Taichung Taiwan<br>
+                Paper Title: Self-Quantified Feedback System Using Internet Traffic Analysis and Classification for Compulsive Internet Use<br />
+                Authors: Tufail Muhammad, Gorakh Parsad (School of Electrical and Computer Engineering at UNIST), and Prof. KwanMyung Kim
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/new7.5.png" alt="">
+                <figcaption class="figcaption">IISE Asia 2018</figcaption>
+            </figure>
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">Ulsan Design and Technology Convergence</h2></div>
+                <p><span class="headline hl8">Ulsan Design Convergence Venture 2017 Awards</span></p>
+            </div>
+            <p>IIDL students won Steve Jobs Award and IR Pitching Award. </p>
+            <figure class="figure">
+                <img class="media" src="img/news/news10.1.png" alt="">
+                <figcaption class="figcaption">Jiheon Yang and Sangjin Park</figcaption>
+            </figure>
+            <p>UNIST, 디자인-기술 융합 벤처 아이디어 선보여 20일(수) 울산롯데호텔서 디자인융합벤처창업학교 투자설명회 개최 창업 아카데미 함께한 10개 디자인 주도 창업기업 수료식도 진행</p>
+            <figure class="figure">
+                <img class="media" src="img/news/news10.2.png" alt="">
+                <figcaption class="figcaption">UNIST Professors, students and Ulsan Design and Technoogy Convergance delegation</figcaption>
+            </figure>
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">Industrial Designers Society America</h2></div>
+                <p><span class="headline hl8">SONORE (Winner - Bronze) 2017</span></p>
+            </div>
+            <p>SONORE is an educational electronic guidebook for pregnant women. The device shows mothers-to-be how to handle emergencies during pregnancy. <br> For more detail, please visit here http://www.idsa.org/awards</p>
+            <figure class="figure">
+                <img class="media" src="img/news/sonore_news.png" alt="">
+                <figcaption class="figcaption">SONORE for maternity care</figcaption>
+            </figure>
+
+
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">DRS Conference in Brighton UK</h2></div>
+                <p><span class="headline hl8">June 28. 2016</span></p>
+            </div>
+            <p>
+                Professor KwanMyung Kim presented a paper entitled "How Companies Adopt Different Design Approaches" at Design Research Society 2016 (DRS 2016), Brighton UK.</br>
+                For conference proceedings, please visit http://www.drs2016.org/allpapers.
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/new5.png" alt="">
+                <figcaption class="figcaption">Design Researech Society 2016</figcaption>
+            </figure>
+
+        </div>
+      
+      
+        <div class="collumn">
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">IASDR 2019 Conference UK</h2></div>
+                <p><span class="headline hl8">2nd-5th September 2019</span></p>
+            </div>
+            <p>
+                IIDL member Tufail Muhammad participated in the IASDR 2019 - DESIGN REVOLUTIONS conference in Manchestor UK.Tufail has presented the paper entitled "Rehabilitation Design Intervention for Older Adult Women through Community-based Co-Design Activities"
+                <figure class="figure">
+                    <img class="media" src="img/news/UK1.jpg" alt="">
+                    <figcaption class="figcaption">Presentation at the Manchestor Metropolitan University - Tufail Muhammad</figcaption>
+                </figure>
+                <figure class="figure">
+                    <img class="media" src="img/news/UK2.jpg" alt="">
+                    <figcaption class="figcaption">IASDR - DESIGN REVOLUTIONS</figcaption>
+                </figure>
+
+                <div class="head">
+                    <div class="tufail"><h2 id="one" align="center">iF Design Award 2019</h2></div>
+<p><span class="headline hl8">Professional Concept Category</span></p>
+            </div>
+            <p>
+                Stool.D designed by Sangjin Park, won iF Design Award 2019 - a world-renowned design prize. The winning product, stool.D is a cycling enabled stool, and won in the discipline Professional Concept category. Each year, the world’s oldest independent design organization, Hannover-based iF International Forum Design GmbH, organizes the iF DESIGN AWARD.
+
+                stool.D won over the 67-member jury, made up of independent experts from all over the world. The competition was intense: 6,375 entries were submitted from 52 countries in hopes of receiving the seal of quality
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/news_jin.jpg" alt="">
+                <figcaption class="figcaption">iF Design Award 2019 - Sangjin Park</figcaption>
+            </figure>
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">AHFE Conference in Florida USA</h2></div>
+                <p><span class="headline hl8">July 17-20, 2018</span></p>
+            </div>
+            <p>
+                An Ergonomic based Postural Control and Balance Body Exercise Design for Young Martial Art Trainees by Tufail Muhammad<br />
+                The Development of a Personal Aerial Vehicle: Main Frame Design for System Control and Thrust Power by Haebin Lee
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/new7.6.png" alt="">
+                <figcaption class="figcaption">AHFE 2018</figcaption>
+            </figure>
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">DRS Conference in Limerick Ireland</h2></div>
+                <p><span class="headline hl8">June 23-26, 2018</span></p>
+            </div>
+            <p>A Toolkit for Teaching the Design Process: A Case of Korean Elementary School Students by Tufail MUhammad and Seonmi Lee</p>
+            <figure class="figure">
+                <img class="media" src="img/news/new7.7.png" alt="">
+                <figcaption class="figcaption">DRS 2018</figcaption>
+            </figure>
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">Spark Design Award: Spring Concept</h2></div>
+                <p><span class="headline hl8">Maze Cube (Winner - Gold) 2017</span></p>
+            </div>
+            <p>Maze Cube’ is a transformable 3D cubic maze for children around 10 years old. It allows to put a ball into the entrance and move the ball by rotating the ‘Maze Cube’, then the ball comes out of the exit. ‘Maze Cube’ can raise children’s abilities about gravity, spatial perception and concentration. <br>For more detail, please visit http://www.sparkawards.com/</p>
+            <figure class="figure">
+                <img class="media" src="img/news/maze_news.jpg" alt="">
+                <figcaption class="figcaption">Maze Cucbe</figcaption>
+            </figure>
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">AHFE Conference Los Angeles USA</h2></div>
+                <p><span class="headline hl8">16 - 21 July 2017</span></p>
+            </div>
+            <p>
+                IID Lab members present thier finished projects in the Applied Human Factors and Ergonomics Society Los Angeles USA.<br>
+                For conference proceedings, please visit http://www.ahfe2017.org/program.html
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/new8.png" alt="">
+                <figcaption class="figcaption">Applied Human Factor and Ergonomics Society 2017</figcaption>
+            </figure>
+
+            <div class="head">
+                <div class="tufail"><h2 id="one" align="center">ICED Conference Vancouver Canada</h2></div>
+                <p><span class="headline hl8">21 - 25 August  2017</span></p>
+            </div>
+            <p>
+                IID Lab memmbers present their recent research at the International Conference on Engineering Design at Vancouver Canada</br>
+                For more information, please visit http://iced17.org/program-at-a-glance/<br>
+                /news.
+            </p>
+            <figure class="figure">
+                <img class="media" src="img/news/new9.png" alt="">
+                <figcaption class="figcaption">21st International Conference on Engineering Design 2017</figcaption>
+            </figure>
+
+
+
+
+
+
+
+        </div>  
+      
+    </div>
+    
+</div>
+</section>
+<aside class="sidebar big-sidebar right-sidebar">
+  <ul>
+    <li>
+      <div class = "tufail">
+        <h2>Quick Menu</h2>
+      </div>
+      <hr>
+      <ul class="blocklist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="members.html#one">People</a></li>
+        <li><a href="research.html#r">Research</a></li>
+        <li><a href="projects.html#p">Projects</a></li>
+        <li><a href="publications.html#pu">Publications</a></li>
+        <li><a href="lectures.html#l">Lectures</a></li>
+        <li><a class="selected" href="news.html#n">News</a></li>
+      </ul>
+    </li>
+    <li>
+      <div class = "tufail">
+        <h2>Useful links</h2>
+      </div>
+      <hr>
+      <ul class="newslist">
+        <li><a href="http://www.unist.ac.kr" title="UNIST">UNIST</a></li>
+        <li><a href="http://www.cde.unist.ac.kr" title="CDE">CDE</a></li>
+        <li><a href="http://www.portal.unist.ac.kr" title="unist portal">UNIST Portal</a></li>
+        <li><a href="http://mail.unist.ac.kr" title="unist mail">UNIST Mail</a></li>
+      </ul>
+    </li>
+  </ul>
+</aside>
+</div>
+<div class="container bg-blue b-radius-bottom">
+  <div class="copy-rights"> I+ID Lab Copyright © 2012 | All Rights Reserved | UNIST, 50 UNIST-gil, Eonyang-eup, Ulju-gun, Ulsan, Republic of Korea<br>
+    (Webmaster: tufail@unist.ac.kr - Last update 2017.02.21) </div>
+</div>
+<script src="js/jquery-1.9.1.js"></script> 
+<script src="js/bootstrap.js"></script> 
+<script src="js/masonry.pkgd.min.js"></script> 
+<script src="js/imagesloaded.js"></script> 
+<script src="js/classie.js"></script> 
+<script src="js/AnimOnScroll.js"></script> 
+<script>
+      new AnimOnScroll( document.getElementById( 'grid' ), {
+        minDuration : 0.4,
+        maxDuration : 0.7,
+        viewportFactor : 0.2
+      } );
+    </script> 
+<script>
+$('#myCarousel').carousel({
+    interval: 1800
+});
+</script>
+</body>
+</html>
